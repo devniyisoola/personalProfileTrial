@@ -2,7 +2,36 @@
   background-color: rgb(9, 71, 242);
   color: white;
   text-align: center;
+  border: 2px solid rgb(5, 5, 42);
+  border-radius: 20px;
+  justify-items: center;
 }
+
+#about-header {
+  /* background-color: black; */
+  border-bottom: groove 2px;
+  border-right: inset 2px;
+  border-top: none;
+  border-left: none;
+  border-radius: 15px;
+  width: 35%;
+  margin: 25px;
+  padding: 5px;
+}
+
 #about-para1 {
   background-color: black;
+  border: solid 1px;
+  border-radius: 10px;
+  width: 90%;
+  padding: 10px;
+  margin: 5px 10px 20px;
+}
+
+.about-para2 {
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px 5px 25px;
 }
