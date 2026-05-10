@@ -43,3 +43,28 @@
   width: 83%;
   padding: 5px;
 }
+
+.principles-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .principles-container {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.principles-container div {
+  background-color: white;
+  border: 2px solid rgb(34, 34, 99);
+  padding: 20px;
+  border-radius: 30px;
+  width: 300px;
+  text-align: center;
+}
